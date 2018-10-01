@@ -1,0 +1,14 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SqlGen
+{
+    public interface IProgress
+    {
+        void Show(string info, int step, int total);
+        void HideProgress();
+    }
+}
